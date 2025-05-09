@@ -1,0 +1,18 @@
+programa
+{
+
+    funcao inicio()
+    {
+    real total, valor1, valor2, valor3, valor4, valor5, valor6
+
+    valor1 = 26.90
+    valor2 = 34.10
+    valor3 = 29.90
+    valor4 = 26.90
+    valor5 = 50.00
+    valor6 = 26.90
+
+    total = valor1 + valor2 + valor3 + valor4 + valor5 + valor6
+    escreva("O valor total da compra dos livros é: R$ ", total)
+    }
+}
