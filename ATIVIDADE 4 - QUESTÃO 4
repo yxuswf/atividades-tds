@@ -1,0 +1,15 @@
+programa
+{
+
+        funcao inicio()
+    {
+       real metros, centimetros
+
+           escreva("Quantos metros você quer converter para centímetros? ")
+           leia(metros)
+
+           centimetros = metros * 100
+
+           escreva("Os ", metros, "que você forneceu são ", centimetros, " em centímetros")
+    }
+} 
