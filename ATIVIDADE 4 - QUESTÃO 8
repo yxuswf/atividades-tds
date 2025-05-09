@@ -1,0 +1,26 @@
+programa
+{
+    funcao inicio()
+    {
+        real pesodepeixes, excesso, multa
+
+        escreva("Quantos quilos de peixe você tem?: ")
+        leia(pesodepeixes)
+
+        se (pesodepeixes > 50)
+        {
+            excesso = pesodepeixes - 50
+            multa = excesso * 4.50
+            escreva("\nQuantidade de peixes: ", pesodepeixes, " kg")
+            escreva("\nExcesso de peso: ", excesso, " kg")
+            escreva("\nMulta que irá pagar: R$ ", multa)
+        }
+        senao
+        {
+            excesso = 0
+            multa = 0
+            escreva("\nQuantidade de peixes: ", pesodepeixes, " kg")
+            escreva("\nVocê não tem excesso, não irá pagar multa.")
+        }
+    }
+}
