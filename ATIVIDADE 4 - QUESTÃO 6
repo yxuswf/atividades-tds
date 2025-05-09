@@ -1,0 +1,22 @@
+programa
+{
+
+        funcao inicio()
+    {
+    real comprimento, largura, area, dobroarea, centimetrosarea
+
+    escreva("Qual o comprimento do gramado? ")
+    leia(comprimento)
+
+    escreva("E qual a largura do gramado? ")
+    leia(largura)
+
+    area = comprimento * largura
+    dobroarea = area * 2
+    centimetrosarea = dobroarea * 100
+
+    escreva("A área do gramado é: ", area)
+    escreva("\nO dobro da área do gramado é: ", dobroarea)
+    escreva("\nO dobro da área em centímetros é: ", centimetrosarea)
+    }
+}
