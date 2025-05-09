@@ -1,0 +1,26 @@
+programa
+{
+
+        funcao inicio()
+    {
+    real economias, precops5, cotacaodolar, dolaresfaltando, reaisfaltando, precolivro
+    inteiro livroscomprados
+
+    cotacaodolar = 5.66
+    precops5 = 1300
+    precolivro = 50.00
+
+    escreva("Quanto você tem de economias em reais?: ")
+    leia(economias)
+
+    dolaresfaltando = precops5 * cotacaodolar - economias
+
+    reaisfaltando = precops5 * cotacaodolar - economias
+
+    livroscomprados = economias / precolivro
+
+    escreva("\nDólares faltando para comprar um PS5: ", dolaresfaltando / cotacaodolar)
+        escreva("\nReais faltando para comprar um PS5: ", reaisfaltando)
+            escreva("\nLivros Harry Potter e a Ordem da Fênix que podem ser comprados: ", livroscomprados)
+    }
+}
