@@ -1,0 +1,18 @@
+programa
+{
+
+    funcao inicio()
+    {
+       cadeia mae = "tess"
+       cadeia filha = "anna"
+       cadeia temp
+
+       temp = mae
+       mae = filha
+       filha =temp
+
+       escreva("Depois da troca:\n")
+       escreva("Mãe: ", mae, "\n")
+       escreva("Filha: ", filha, "\n")
+    }
+}
